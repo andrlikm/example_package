@@ -12,3 +12,9 @@ def add_two(n: int) -> int:
     n = add_one(n)
     n = add_one(n)
     return n
+
+def count_average(nums):
+    sum = 0.0
+    for i in nums:
+        sum += i
+    return sum / len(nums)
