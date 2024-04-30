@@ -63,9 +63,6 @@ This leads to the command 'expac' being accessible from the command line. In thi
 If we run 'expac' without any parameters, it prints help.
 
 # Tests
-
-TEST
-
 Ensuring the reliability and functionality of your software is crucial. This package comes with a set of tests that you can run to validate its behavior. To execute the tests, use command `pytest` in the following command in the package folder (with pytest installed):
 
 You should see similar output as follows 
